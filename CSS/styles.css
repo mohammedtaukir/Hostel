@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+}
+#background{
+    width: auto;
+    height: 400px;
+    background: #161729;
+    /* position: absolute; */
+    
+}
+#logo{
+    position: absolute;
+    width: 20px;
+    height: 48.15px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.logbtn{
+    position: relative;
+    width: 105px;
+    height: 34px;
+    background-color: #383179;
+    border: #161729;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#sign{
+    position:absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+#login{
+    position:absolute;
+    right: 120px;
+    top: 5px;
+    cursor: pointer;
+}
+#hostelmanage{
+
+    width: 105px;
+    height: 34px;
+    background-color: #383179;
+    border: #161729;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    right: 235px;
+    top: 5px;
+    cursor: pointer;
+    
+
+}
+
+#searchbyname{
+    width: 30%;
+    height: 4%;
+    position: absolute;
+    left: 450px;
+    right: 300px;
+    top:100px;
+    border-radius: 4px;
+}
+
+.inputdetails{
+    width: 13%;
+    height: 20px;
+    position:relative;
+    left: 300px;
+    top: 150px;
+    border-radius: 4px;
+
+
+}
+/* #facilities{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: antiquewhite;
+
+} */
+
+.checkboxfacilities{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin-top: 165px;
+    margin-left: 250px;
+
+    
+
+    
+   
+}
+#search{
+    width: 100px;
+    height: 30px;
+    position:relative;
+    left: 550px;
+    top: 40px;
+    
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css"
+  </head>
+  <body>
+    <div id="background">
+        <div>
+            <h1 id="logo">HOSTEL <br>FINDER</h1> 
+            <button id="sign" class="logbtn">Sign Up</button>
+            <button id="login" class="logbtn">Login</button>
+            <button onclick="managehostel.html" id="hostelmanage">Manage Hostel</button>
+            
+        </div>
+        <section>
+          <div>
+            <input type="text" placeholder="search by name" id="searchbyname">
+            <input type="text" placeholder="District" class="inputdetails">
+            <input type="text" placeholder="Place" class="inputdetails"> 
+            <input type="text" placeholder="Price" class="inputdetails">
+            <select id="type" class="inputdetails">
+              <option value="boys">Boys</option>
+              <option value="girls">Girs</option>
+
+            </select>
+              <div>
+               <div class="checkboxfacilities">
+                  <label id="facilities">Select Facilities:</label>
+                  <input type="checkbox" id="parking">
+                  <label for="parking">Parking &nbsp;</label>
+                  <input type="checkbox" id="gym">
+                  <label for="gym">Gym &nbsp;</label>
+                  <input type="checkbox" id="laundry">
+                  <label for="laundry">Laundry &nbsp;</label>
+                  <input type="checkbox" id="cctv">
+                  <label for="cctv">CCTV &nbsp;</label>
+                  <input type="checkbox" id="wifi">
+                  <label for="wifi">WiFi</label>
+
+                </div>
+                <input type="button" onclick="location.href='managehostel.html'" id="search" value="Search">
+              </div>
+          </div>
+        </section>
+    </div>
+
+    
+ 
+  
+    
+    
+    
+</html>
